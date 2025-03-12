@@ -1,0 +1,180 @@
+[
+    {
+      "id": 1,
+      "description": "Age Verification (18+) - mDL",
+      "translationKey": "settingsPresetConfig.useCase01.label",
+      "docTypes": [
+        {
+          "id": "org.iso.18013.5.1.mDL",
+          "claims": [
+            {
+              "namespaceId": "org.iso.18013.5.1",
+              "elementIds": ["portrait", "age_over_18"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Age Verification (18+) - Photo ID",
+      "translationKey": "settingsPresetConfig.useCase02.label",
+      "docTypes": [
+        {
+          "id": "org.iso.23220.photoID.1",
+          "claims": [
+            {
+              "namespaceId": "org.iso.23220.1",
+              "elementIds": ["portrait", "age_over_18"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Age Verification (date of birth) - mDL",
+      "translationKey": "settingsPresetConfig.useCase03.label",
+      "docTypes": [
+        {
+          "id": "org.iso.18013.5.1.mDL",
+          "claims": [
+            {
+              "namespaceId": "org.iso.18013.5.1",
+              "elementIds": ["portrait", "birth_date"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Age Verification (date of birth) - Photo ID",
+      "translationKey": "settingsPresetConfig.useCase04.label",
+      "docTypes": [
+        {
+          "id": "org.iso.23220.photoID.1",
+          "claims": [
+            {
+              "namespaceId": "org.iso.23220.1",
+              "elementIds": ["portrait", "birth_date"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Driver Licence - mDL",
+      "translationKey": "settingsPresetConfig.useCase05.label",
+      "docTypes": [
+        {
+          "id": "org.iso.18013.5.1.mDL",
+          "claims": [
+            {
+              "namespaceId": "org.iso.18013.5.1",
+              "elementIds": [
+                "sex",
+                "portrait",
+                "birth_date",
+                "given_name",
+                "family_name",
+                "issue_date",
+                "expiry_date",
+                "issuing_authority",
+                "issuing_country",
+                "document_number",
+                "administrative_number",
+                "driving_privileges"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "description": "Proof of ID (Basic) - mDL",
+      "translationKey": "settingsPresetConfig.useCase06.label",
+      "docTypes": [
+        {
+          "id": "org.iso.18013.5.1.mDL",
+          "claims": [
+            {
+              "namespaceId": "org.iso.18013.5.1",
+              "elementIds": ["portrait", "given_name", "family_name"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "description": "Proof of ID (Basic) - Photo ID",
+      "translationKey": "settingsPresetConfig.useCase07.label",
+      "docTypes": [
+        {
+          "id": "org.iso.23220.photoID.1",
+          "claims": [
+            {
+              "namespaceId": "org.iso.23220.1",
+              "elementIds": ["portrait", "given_name_latin1", "family_name_latin1"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "description": "Proof of ID (Customer Due Diligence) - mDL",
+      "translationKey": "settingsPresetConfig.useCase08.label",
+      "docTypes": [
+        {
+          "id": "org.iso.18013.5.1.mDL",
+          "claims": [
+            {
+              "namespaceId": "org.iso.18013.5.1",
+              "elementIds": [
+                "portrait",
+                "birth_date",
+                "given_name",
+                "family_name",
+                "resident_address",
+                "resident_city",
+                "resident_state",
+                "resident_postal_code",
+                "resident_country",
+                "signature_usual_mark"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "description": "Proof of ID (Customer Due Diligence) - Photo ID",
+      "translationKey": "settingsPresetConfig.useCase09.label",
+      "docTypes": [
+        {
+          "id": "org.iso.23220.photoID.1",
+          "claims": [
+            {
+              "namespaceId": "org.iso.23220.1",
+              "elementIds": [
+                "portrait",
+                "birth_date",
+                "given_name_latin1",
+                "family_name_latin1",
+                "resident_address_latin1",
+                "resident_city_latin1",
+                "resident_postal_code",
+                "resident_country"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,111 @@
+[
+    {
+      "org.iso.18013.5.1.mDL": {
+        "translationKey": "settingsPresetConfig.docType.driverLicence",
+        "namespaces": {
+          "org.iso.18013.5.1": {
+            "translationKey": "settingsPresetConfig.docType.driverLicence",
+            "elements": {
+              "portrait": {
+                "translationKey": "settingsPresetConfig.element.portrait"
+              },
+              "age_over_18": {
+                "translationKey": "settingsPresetConfig.element.booleanValue18"
+              },
+              "birth_date": {
+                "translationKey": "settingsPresetConfig.element.birthDate"
+              },
+              "sex": {
+                "translationKey": "settingsPresetConfig.element.sex"
+              },
+              "given_name": {
+                "translationKey": "settingsPresetConfig.element.givenName"
+              },
+              "family_name": {
+                "translationKey": "settingsPresetConfig.element.familyName"
+              },
+              "issue_date": {
+                "translationKey": "settingsPresetConfig.element.issueDate"
+              },
+              "expiry_date": {
+                "translationKey": "settingsPresetConfig.element.expiryDate"
+              },
+              "issuing_authority": {
+                "translationKey": "settingsPresetConfig.element.issuingAuthority"
+              },
+              "issuing_country": {
+                "translationKey": "settingsPresetConfig.element.issuingCountry"
+              },
+              "document_number": {
+                "translationKey": "settingsPresetConfig.element.documentNumber"
+              },
+              "administrative_number": {
+                "translationKey": "settingsPresetConfig.element.administrativeNumber"
+              },
+              "driving_privileges": {
+                "translationKey": "settingsPresetConfig.element.drivingPrivileges"
+              },
+              "resident_address": {
+                "translationKey": "settingsPresetConfig.element.residentAddress"
+              },
+              "resident_city": {
+                "translationKey": "settingsPresetConfig.element.residentCity"
+              },
+              "resident_state": {
+                "translationKey": "settingsPresetConfig.element.residentState"
+              },
+              "resident_postal_code": {
+                "translationKey": "settingsPresetConfig.element.residentPostalCode"
+              },
+              "resident_country": {
+                "translationKey": "settingsPresetConfig.element.residentCountry"
+              },
+              "signature_usual_mark": {
+                "translationKey": "settingsPresetConfig.element.signatureUsualMark"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "org.iso.23220.photoID.1": {
+        "translationKey": "settingsPresetConfig.docType.photoId",
+        "namespaces": {
+          "org.iso.23220.1": {
+            "translationKey": "settingsPresetConfig.docType.photoId",
+            "elements": {
+              "portrait": {
+                "translationKey": "settingsPresetConfig.element.portrait"
+              },
+              "age_over_18": {
+                "translationKey": "settingsPresetConfig.element.booleanValue18"
+              },
+              "birth_date": {
+                "translationKey": "settingsPresetConfig.element.birthDate"
+              },
+              "given_name_latin1": {
+                "translationKey": "settingsPresetConfig.element.givenName"
+              },
+              "family_name_latin1": {
+                "translationKey": "settingsPresetConfig.element.familyName"
+              },
+              "resident_address_latin1": {
+                "translationKey": "settingsPresetConfig.element.residentAddress"
+              },
+              "resident_city_latin1": {
+                "translationKey": "settingsPresetConfig.element.residentCity"
+              },
+              "resident_postal_code": {
+                "translationKey": "settingsPresetConfig.element.residentPostalCode"
+              },
+              "resident_country": {
+                "translationKey": "settingsPresetConfig.element.residentCountry"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+  
